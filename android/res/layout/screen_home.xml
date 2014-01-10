@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/home_recentMessages"
+        style="@style/ButtonTextBlue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchRecentMessages"
+        android:text="@string/recent_messages" />
+
+    <Button
+        android:id="@+id/home_stopReadingNow"
+        style="@style/ButtonTextRed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopReadingNow"
+        android:text="@string/stop_reading_now" />
+
+    <Button
+        android:id="@+id/home_disableAll"
+        style="@style/ButtonTextOrange"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="disableEnableNotifications"
+        android:text="@string/disable_all_notifications" />
+
+    <Button
+        android:id="@+id/home_accounts"
+        style="@style/ButtonTextOrange"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="launchAccounts"
+        android:text="@string/accounts_and_sources" />
+
+    <Button
+        android:id="@+id/home_settings"
+        style="@style/ButtonTextOrange"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchSettings"
+        android:text="@string/settings" />
+
+    <TextView
+        android:id="@+id/home_healthCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/health_check_placeholder" />
+
+</LinearLayout>

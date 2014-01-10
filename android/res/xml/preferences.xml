@@ -1,0 +1,124 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:enabled="true"
+        android:key="@string/stopReadingNow"
+        android:persistent="false"
+        android:selectable="true"
+        android:summary="@string/stop_reading_now_summary"
+        android:title="@string/stop_reading_now" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/masterEnable"
+        android:persistent="true"
+        android:summary="@string/master_enable_checkbox_summary"
+        android:title="@string/master_enable_checkbox" />
+
+    <PreferenceScreen
+        android:enabled="true"
+        android:persistent="false"
+        android:selectable="true"
+        android:summary="@string/notification_settings_summary"
+        android:title="@string/notification_settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/playRingtone"
+            android:persistent="true"
+            android:summary="@string/play_ringtone_summary"
+            android:title="@string/play_ringtone" />
+
+        <RingtonePreference
+            android:key="@string/choosenNotification"
+            android:persistent="true"
+            android:ringtoneType="notification"
+            android:summary="@string/choose_notification_tone_summary"
+            android:title="@string/choose_notification_tone" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/vibrateNotify"
+            android:persistent="true"
+            android:summary="@string/vibrate_summary"
+            android:title="@string/vibrate" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/ledFlash"
+            android:persistent="true"
+            android:summary="@string/led_flash_summary"
+            android:title="@string/led_flash" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/fastLedFlash"
+            android:persistent="true"
+            android:summary="@string/fast_led_flash_summary"
+            android:title="@string/fast_led_flash" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/speakMessage"
+            android:persistent="true"
+            android:summary="@string/speak_message_summary"
+            android:title="@string/speak_message" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:enabled="true"
+        android:persistent="false"
+        android:selectable="true"
+        android:summary="@string/advanced_settings_summary"
+        android:title="@string/advanced_settings" >
+        <Preference
+            android:key="@string/previewSpeech"
+            android:summary="@string/preview_summary"
+            android:title="@string/preview" />
+
+        <EditTextPreference
+            android:digits="0123456789"
+            android:key="@string/delayReadingTime"
+            android:maxLength="2"
+            android:persistent="true"
+            android:summary="@string/delay_readout_summary"
+            android:title="@string/delay_readout" >
+        </EditTextPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/shakeToStop"
+            android:persistent="true"
+            android:summary="@string/shakestop_summary"
+            android:title="@string/shakestop" />
+
+        <EditTextPreference
+            android:digits="0123456789"
+            android:key="@string/shakeThreshold"
+            android:maxLength="4"
+            android:persistent="true"
+            android:summary="@string/shakethreshhold_summary"
+            android:title="@string/shakethreshhold" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:digits="0123456789"
+            android:key="@string/shakeWaitTime"
+            android:maxLength="2"
+            android:persistent="true"
+            android:summary="@string/shakewaittime_summary"
+            android:title="@string/shakewaittime" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:defaultValue="%t. %m"
+            android:key="@string/speakFormat"
+            android:persistent="true"
+            android:summary="@string/speakformat_summary"
+            android:title="@string/speakformat" >
+        </EditTextPreference>
+
+        <ListPreference
+            android:defaultValue="NOTIFICATION"
+            android:entries="@array/ttsAudioStreamEntries"
+            android:entryValues="@array/ttsAudioStreamvalues"
+            android:key="@string/ttsAudioStream"
+            android:summary="@string/tts_auto_stream_summary"
+            android:title="@string/tts_audio_stream_title" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

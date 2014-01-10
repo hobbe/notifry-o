@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageButton
+        android:id="@+id/widget_stop_now_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/icon_hush"
+        android:src="@drawable/icon_hush" />
+
+</LinearLayout>

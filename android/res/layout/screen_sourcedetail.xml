@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="@string/source_title" >
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/detail_serverenable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enabled_on_server" >
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/detail_localenable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enabled_locally" >
+    </CheckBox>
+
+    <TextView
+        android:id="@+id/detail_sourcekey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2" >
+    </TextView>
+
+    <Button
+        android:id="@+id/detail_save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="save"
+        android:text="@string/save" >
+    </Button>
+
+    <Button
+        android:id="@+id/detail_emailkey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="emailKey"
+        android:text="@string/email_source_key" >
+    </Button>
+
+    <Button
+        android:id="@+id/detail_messages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="messages"
+        android:text="@string/messages" >
+    </Button>
+
+    <Button
+        android:id="@+id/detail_test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="test"
+        android:text="@string/test" >
+    </Button>
+
+    <Button
+        android:id="@+id/detail_delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="delete"
+        android:text="@string/delete" >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="master_enable_checkbox">Activer le service</string>
+    <string name="master_enable_checkbox_summary">Si désactivé, aucune notification ne sera affichée.</string>
+    <string name="choose_notification_tone">Son de Notification</string>
+    <string name="choose_notification_tone_summary">Sélectioner le son de la notification.</string>
+    <string name="read_all_sms_checkbox">Lire tous les messages</string>
+    <string name="read_all_warning">Attention : la lecture de certains messages peut conduire à une situation embarrassante !</string>
+    <string name="announce_sender">Annoncer l\'expéditeur</string>
+    <string name="announce_sender_summary">Annoncer le nom de l\'expéditeur avant la lecture du message.</string>
+    <string name="stop_reading_now">Arrêter la lecture</string>
+    <string name="stop_reading_now_summary">Arrête la lecture du message.</string>
+    <string name="test_account">Sélectionner un compte de test</string>
+    <string name="test_account_summary">Sélectionner un compte de test et enregistrer l\'appareil auprès du serveur.</string>
+    <string name="edit_whitelist">Editer la liste blanche</string>
+    <string name="edit_whitelist_summary">Sélectionner les contacts pour qui les messages seront lus.</string>
+    <string name="delay_readout">Delai avant lecture</string>
+    <string name="delay_readout_summary" formatted="false">Retarder la lecture du message de %d seconde%s.</string>
+    <string name="advanced_settings">Paramètres avancés</string>
+    <string name="advanced_settings_summary">Modifier les paramètres avancés.</string>
+    <string name="language">Sélectionner la langue</string>
+    <string name="language_summary">Sélectionner la langue du moteur TTS pour la lecture des messages.</string>
+    <string name="read_speed">Vitesse de lecture</string>
+    <string name="read_speed_summary">Sélectionner la vitesse de lecture.</string>
+    <string name="preview">Prévisualisation</string>
+    <string name="preview_summary">Tester la langue et la vitesse du moteur TTS.</string>
+    <string name="preview_speak">Vers l\'infini, et au delà !</string>
+    <string name="shakestop">Agiter pour arrêter</string>
+    <string name="shakestop_summary">Activer la possibilité d\'agiter l\'appareil pour arrêter la lecture.</string>
+    <string name="shakethreshhold">Seuil d\'agitation</string>
+    <string name="shakethreshhold_summary">Valeur courante: %d, 1500 par défaut.</string>
+    <string name="shakewaittime">Temps d\'attente d\'agitation</string>
+    <string name="shakewaittime_summary">Attendre l\'évènement d\'agitation pendant %d secondes.</string>
+    <string name="speakformat">Format de sortie TTS</string>
+    <string name="speakformat_summary" formatted="false">%s pour la source, %m pour le message, %t pour le titre, %a pour le compte. Valeur par défaut : %t %m.</string>
+    <string name="tts_audio_stream_title">Flux audio pour le TTS</string>
+    <string name="tts_auto_stream_summary">Le flux audio utilisé par le moteur TTS.</string>
+    <string name="notification_settings">Paramètres de notification</string>
+    <string name="notification_settings_summary">Modifier les paramètres de notification.</string>
+    <string name="play_ringtone">Sonnerie</string>
+    <string name="play_ringtone_summary">Utiliser une sonnerie à l\'arrivée d\'une notification.</string>
+    <string name="vibrate">Vibreur</string>
+    <string name="vibrate_summary">Utiliser le vibreur à l\'arrivée d\'une notification.</string>
+    <string name="led_flash">Faire clignoter la LED</string>
+    <string name="led_flash_summary">Faire clignoter la LED à l\'arrivée d\'une notification.</string>
+    <string name="fast_led_flash">Clignotement LED rapide</string>
+    <string name="fast_led_flash_summary">Utiliser un clignotement rapide - utile pour certains modèles de téléphones.</string>
+    <string name="speak_message">Lire le message</string>
+    <string name="speak_message_summary">Lire le message avec le moteur TTS.</string>
+    <string name="notification">NOTIFICATION</string>
+    <string name="disable_all_notifications">Désactiver les notifications</string>
+    <string name="enable_all_notifications">Activer les notifications</string>
+    <string name="recent_messages">Messages récents</string>
+    <string name="accounts_and_sources">Comptes et sources</string>
+    <string name="enabled_on_server">Activé sur le serveur</string>
+    <string name="enabled_on_server_summary">Si désactivé, le serveur ne transmettra pas de message.</string>
+    <string name="enabled_locally">Activé sur l\'appareil</string>
+    <string name="enabled_locally_summary">Si désactivé, l\'appareil ne traitera pas le message reçu.</string>
+    <string name="email_source_key">Envoyer la clé de la source par email</string>
+    <string name="messages">Messages</string>
+    <string name="settings_heading">Paramètres</string>
+    <string name="choose_accounts_heading">Gérer les comptes</string>
+    <string name="sources_heading">Gérer les sources</string>
+    <string name="editor_heading">Editer la source</string>
+    <string name="messages_heading">Messages récents</string>
+    <string name="message_detail_heading">Message</string>
+    <string name="no_accounts">Il n\'existe pas de compte Google enregistré sur cet appareil. L\'application nécessite au moins un compte Google.</string>
+    <string name="accounts_help">The checkbox registers or unregisters that account with the backend server. Then, tap the account name to manage sources.</string>
+    <string name="no_sources">Il n\'y a pas de source configurée pour ce compte. Utiliser le menu pour en ajouter une.</string>
+    <string name="no_recent_messages">Aucun message récent.</string>
+    <string name="registering_with_server">Enregistrement du compte auprès du serveur&#8230;</string>
+    <string name="deregistering_with_server">Annulation de l\'enregistrement du compte auprès serveur&#8230;</string>
+    <string name="registering_with_server_complete" formatted="false">Le compte %s est enregistré auprès du serveur.</string>
+    <string name="deregistering_with_server_complete" formatted="false">Le compte %s n\'est plus enregistré auprès du serveur.</string>
+    <string name="refresh_ids">Rafraîchir les identifiants C2DM</string>
+    <string name="background_refreshing">Le rafraîchissement des identifiants C2DM pour les comptes actifs est lancé en arrière plan.</string>
+    <string name="create_source">Créer une source</string>
+    <string name="refresh_sources_server">Rafraîchir à partir du serveur</string>
+    <string name="refresh_sources_success">La liste des sources a été actualisée.</string>
+    <string name="create_source_message">Saisir un titre pour la nouvelle source</string>
+    <string name="create_source_server_waiting">Création de la source sur le serveur, veuillez patienter&#8230;</string>
+    <string name="create_source_server_complete">La source a été créée sur le serveur.</string>
+    <string name="loading_sources_from_server">Chargement de la liste des sources à partir du serveur&#8230;</string>
+    <string name="source_disabled_on_server">La source est désactivée sur le serveur.</string>
+    <string name="delete_source">Confirmer la suppression de la source</string>
+    <string name="delete_source_message">Si la source est supprimée, elle ne pourra plus être utilisée pour l\'envoi de notifications. Ceci est irréversible.</string>
+    <string name="source_saving_to_server">Enregistrement de la source sur le serveur&#8230;</string>
+    <string name="source_deleting_from_server">Suppression de la source du serveur&#8230;</string>
+    <string name="source_testing_with_server">Demande au serveur pour l\'envoi d\'un message de test&#8230;</string>
+    <string name="source_key_heading">Clé de source</string>
+    <string name="source_key_email_subject">Ma clé de source Notifry \'O\'</string>
+    <string name="source_key_email_body">La clé de source nécessaire est %s - Merci !</string>
+    <string name="source_save_success">La source a été enregistrée.</string>
+    <string name="source_delete_success">La source a été supprimée.</string>
+    <string name="source_test_success">Un message de test a été enregistré sur le serveur.</string>
+    <string name="source_editor_title">Titre</string>
+    <string name="source_notification_settings_summary">Modifier les notifications pour cette source.</string>
+    <string name="source_test_summary">Tester cette source via le serveur.</string>
+    <string name="source_message_summary">Voir les messages récents pour cette source.</string>
+    <string name="source_delete_summary">Supprimer cette source.</string>
+    <string name="source_global_notifications">Utiliser les paramètres par défaut</string>
+    <string name="source_global_notifications_summary">Utiliser les paramètres par défaut à partir des paramètres principaux de Notifry \'O\'.</string>
+    <string name="source_email_key">Envoyer la clé de la source par email</string>
+    <string name="source_email_key_summary">Envoyer la clé de la source par email à un contact.</string>
+    <string name="messages_all_title">Tous les messages</string>
+    <string name="messages_source_title" formatted="false">Messages - %s</string>
+    <string name="need_tts_data_installed">Les données TTS ne sont pas installées - redirection vers la configuration des données.</string>
+    <string name="health_check_disabled">Toutes les notifications sont désactivées.</string>
+    <string name="health_check_placeholder">Les informations sur l\'état général dy système sont listées ici.</string>
+    <string name="health_check_all_ok">Etat général du système validé.</string>
+    <string name="health_error_no_c2dm_id">Pas d\'identifiant C2DM. Veuillez patienter ou redémarrer l\'application.</string>
+    <string name="health_error_c2dm_error">Une erreur est survenue lors de la récupération de l\'identifiant C2DM : </string>
+    <string name="health_error_no_accounts">Aucun compte n\'est enregistré. Veuillez en sélectionner un.</string>
+    <string name="health_error_no_sources" formatted="false">Le compte %s n\'a pas de source. Si sous pensez que ce n\'est pas correct, veuillez rafraîchir la liste à partir du serveur.</string>
+    <string name="health_error_disabled_server_sources" formatted="false">Le compte %s a %d source%s désactivées côté serveur.</string>
+    <string name="health_error_disabled_local_sources" formatted="false">Le compte %s a %d source%s désactivées en local.</string>
+    <string name="health_error_account_wrong_id" formatted="false">Le compte %s n\'a pas l\'identifiant C2DM le plus à jour. Veuillez rafraîchir la liste des comptes.</string>
+    <string name="add_contact">Ajouter un Contact</string>
+    <string name="add_raw">Add string Contact</string>
+    <string name="add_raw_message">Enter the contact string, eg \'Google\'.</string>
+    <string name="add">Ajouter</string>
+    <string name="create">Créer</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="delete_all">Tout supprimer</string>
+    <string name="delete_read">Supprimer messages lus</string>
+    <string name="main_menu">Menu Principal</string>
+    <string name="settings">Paramètres</string>
+    <string name="save">Enregistrer</string>
+    <string name="test">Test</string>
+    <string name="mark_all_as_seen">Tout marquer ""lu"</string>
+    <string name="ok">OK</string>
+    <string name="message_list">Message List</string>
+    <string name="ifContactEnabled">Enabled</string>
+    <string name="ifContactNotEnabled">Not enabled</string>
+    <string name="notts">La librairie TTS n\'est pas installée sur l\'appareil - Le service de diction ne pourra pas lire vos messages.</string>
+    <string name="announce_sep">dit</string>
+    <string name="unknown">Inconnu</string>
+    <string name="source_title">Nom de Source</string>
+    <string name="account_configure">Configurer</string>
+    <string name="icon_hush">Silence</string>
+
+</resources>
